@@ -1,0 +1,597 @@
+{
+ "name": "flare",
+ "children": [
+  
+   {
+   "name": "Asia",
+   "children": [
+    {
+     "name": "Southern Asia",
+     "children": [	 
+      {
+       "name": "India",
+       "children": [
+        {"name": "Mumbai", "size": 1269},
+        {"name": "Delhi", "size": 1092},
+        {"name": "Bengaluru", "size": 510},
+        {"name": "Kolkata", "size": 463},
+		{"name": "Chennai", "size": 432},
+		{"name": "Ahmedabad", "size": 371},
+		{"name": "Hyderabad", "size": 359},
+		{"name": "Pune", "size": 293},
+		{"name": "Surat", "size": 289},
+		{"name": "Kanpur", "size": 282}		
+       ]
+      },
+      {
+       "name": "Pakistan",
+       "children": [
+        {"name": "Karachi", "size": 1162},
+        {"name": "Lahore", "size": 631},
+        {"name": "Faisalabad", "size": 250},
+        {"name": "Rawalpindi", "size": 174},
+		{"name": "Multan", "size": 143},
+		{"name": "Hyderabad", "size": 139},
+		{"name": "Gujranwala", "size": 138},
+		{"name": "Peshawar", "size": 121},
+		{"name": "Rahim Yar Khan", "size": 78},
+		{"name": "Quetta", "size": 73}
+       ]
+      },
+	  {
+       "name": "Bangladesh",
+       "children": [
+        {"name": "Dakha", "size": 1035},
+        {"name": "Chittagong", "size": 392},
+        {"name": "Khulna", "size": 134},
+        {"name": "Rajshahi", "size": 70},
+		{"name": "Comilla", "size": 38},
+		{"name": "Shibganj", "size": 37},
+		{"name": "Natore", "size": 36},
+		{"name": "Rangpur", "size": 34},
+		{"name": "Tungi", "size": 33},
+		{"name": "Narsingdi", "size": 28}
+       ]
+      },
+	  {
+       "name": "Iran",
+       "children": [
+        {"name": "Tehran", "size": 715},
+        {"name": "Mashhad", "size": 230},
+        {"name": "Isfahan", "size": 154},
+        {"name": "Karaj", "size": 144},
+		{"name": "Tabriz", "size": 142},
+		{"name": "Shiraz", "size": 124},
+		{"name": "Qom", "size": 90},
+		{"name": "Ahvaz", "size": 84},
+		{"name": "Pazragad Branch", "size": 78},
+		{"name": "Kahriz", "size": 76}
+       ]
+      },
+	  {
+       "name": "Afghanistan",
+       "children": [
+        {"name": "Kabul", "size": 304},
+        {"name": "Kandahar", "size": 39},
+        {"name": "Mazar-e Sharif", "size": 30},
+        {"name": "Herat", "size": 27},
+		{"name": "Jalalabad", "size": 20},
+		{"name": "Kunduz", "size": 16},
+		{"name": "Ghazni", "size": 14},
+		{"name": "Balkh", "size": 11},
+		{"name": "Baghlan", "size": 10},
+		{"name": "Gardez", "size": 10}
+       ]
+      },
+	  {
+       "name": "Nepal",
+       "children": [
+        {"name": "Kathmandu", "size": 144},
+        {"name": "Pokhara", "size": 20},
+        {"name": "Patan", "size": 18},
+        {"name": "Biratnagar", "size": 18},
+		{"name": "Birganj", "size": 13},
+		{"name": "Dharan", "size": 10},
+		{"name": "Bharatpur", "size": 10},
+		{"name": "Jankpur", "size": 9},
+		{"name": "Dhangadhi", "size": 9},
+		{"name": "Butwal", "size": 9}
+       ]
+      },
+	  {
+       "name": "SriLanka",
+       "children": [
+        {"name": "Colombo", "size": 64},
+        {"name": "Dehiwala-Mount Lavinia", "size": 21},
+        {"name": "Moratuwa", "size": 18},
+        {"name": "Jaffna", "size": 17},
+		{"name": "Negombo", "size": 14},
+		{"name": "Pita Kotte", "size": 12},
+		{"name": "Sri Jayewardenepura Kotte", "size": 12},
+		{"name": "Kandy", "size": 11},
+		{"name": "Trincomalee", "size": 10},
+		{"name": "Kalmunai", "size": 10}
+       ]
+      },
+	  {
+       "name": "Bhutan",
+       "children": [
+        {"name": "Thimphu", "size": 10},
+        {"name": "Punakha", "size": 2},
+        {"name": "Tsirang", "size": 2},
+        {"name": "Phuntsholing", "size": 2}
+       ]
+      },
+      {"name": "Maldives", "size": 10}
+     ]
+    },
+    {
+     "name": "Eastern Asia",
+     "children": [	 
+      {
+       "name": "China",
+       "children": [
+        {"name": "Shangai", "size": 2231},
+        {"name": "Beijing", "size": 1171},
+        {"name": "Tianjin", "size": 1109},
+        {"name": "Guangzhou", "size": 1107},
+		{"name": "Shenzhen", "size": 1035},
+		{"name": "Wuhan", "size": 978},
+		{"name": "Dongguan", "size": 800},
+		{"name": "Chongqing", "size": 745},
+		{"name": "Chengdu", "size": 741},
+		{"name": "Nanjing", "size": 716}
+       ]
+      },
+      {
+       "name": "Japan",
+       "children": [
+        {"name": "Tokyo", "size": 833},
+        {"name": "Yokohama", "size": 357},
+        {"name": "Osaka", "size": 259},
+        {"name": "Nagoya", "size": 219},
+		{"name": "Sapporo", "size": 188},
+		{"name": "Kobe", "size": 152},
+		{"name": "Kyoto", "size": 145},
+		{"name": "Fukuoka", "size": 139},
+		{"name": "Kawasaki", "size": 130},
+		{"name": "Saitama", "size": 119}
+       ]
+      },
+	  {
+       "name": "South Korea",
+       "children": [
+        {"name": "Seoul", "size": 1034},
+        {"name": "Busan", "size": 367},
+        {"name": "Incheon", "size": 262},
+        {"name": "Daegu", "size": 256},
+		{"name": "Daejeon", "size": 148},
+		{"name": "Gwangju", "size": 141},
+		{"name": "Suwon", "size": 124},
+		{"name": "Goyang-si", "size": 107},
+		{"name": "Seongnam-si", "size": 103},
+		{"name": "Ulsan", "size": 96}
+       ]
+      },
+	  {
+       "name": "North Korea",
+       "children": [
+        {"name": "Pyongyang", "size": 322},
+        {"name": "Hamhung", "size": 55},
+        {"name": "Namp'o", "size": 46},
+        {"name": "Sunch'on", "size": 44},
+		{"name": "Hungnam", "size": 35},
+		{"name": "Kaesong", "size": 34},
+		{"name": "Wonsan", "size": 33},
+		{"name": "Chongjin", "size": 33},
+		{"name": "Sariwon", "size": 31},
+		{"name": "Sinuiju", "size": 29}
+       ]
+      },
+	  {
+       "name": "Taiwan",
+       "children": [
+        {"name": "Taipei", "size": 787},
+        {"name": "Kaohsiung", "size": 152},
+        {"name": "Taichung", "size": 104},
+        {"name": "Tainan", "size": 77},
+		{"name": "Banqiao", "size": 54},
+		{"name": "Hsinchu", "size": 40},
+		{"name": "Taoyuan City", "size": 40},
+		{"name": "Keelung", "size": 40},
+		{"name": "Hualien City", "size": 35},
+		{"name": "Yuanlin", "size": 12}
+       ]
+      },
+	  {
+       "name": "Hong Kong",
+       "children": [
+        {"name": "Hong Kong", "size": 701},
+        {"name": "Kowloon", "size": 202},
+        {"name": "Tsuen Wan", "size": 28},
+        {"name": "Yuen Long Kau Hui", "size": 14},
+		{"name": "Tung Chung", "size": 5},
+		{"name": "Sha Tin", "size": 2},
+		{"name": "Tuen Mun", "size": 2},
+		{"name": "Tai Po", "size": 2}
+       ]
+      },
+	  {
+       "name": "Mongolia",
+       "children": [
+        {"name": "Ulan Bator", "size": 84},
+        {"name": "Erdenet", "size": 8},
+        {"name": "Darhan", "size": 7},
+        {"name": "Khovd", "size": 3},
+		{"name": "OElgii", "size": 3},
+		{"name": "Ulaangom", "size": 3},
+		{"name": "Hovd", "size": 3},
+		{"name": "Murun-kuren", "size": 3},
+		{"name": "Bayanhongor", "size": 3},
+		{"name": "Arvayheer", "size": 3}
+       ]
+      },
+      {"name": "Macao", "size": 52}
+     ]
+    },
+    {
+     "name": "South-Eastern Asia",
+     "children": [	 
+      {
+       "name": "Indonesia",
+       "children": [
+        {"name": "Jakarta", "size": 854},
+        {"name": "Surabaya", "size": 237},
+        {"name": "Medan", "size": 175},
+        {"name": "Bandung", "size": 170},
+		{"name": "Bekasi", "size": 152},
+		{"name": "Palembang", "size": 144},
+		{"name": "Tangerang", "size": 137},
+		{"name": "Makassar", "size": 132},
+		{"name": "South Tangerang", "size": 130},
+		{"name": "Semarang", "size": 129}
+       ]
+      },
+      {
+       "name": "Philippines",
+       "children": [
+        {"name": "Quezon City", "size": 833},
+        {"name": "Manila", "size": 357},
+        {"name": "Caloocan City", "size": 259},
+        {"name": "Budta", "size": 219},
+		{"name": "Davao", "size": 188},
+		{"name": "Malingao", "size": 152},
+		{"name": "Cebu City", "size": 145},
+		{"name": "General Santos", "size": 139},
+		{"name": "Taguig", "size": 130},
+		{"name": "Pasig City", "size": 119}
+       ]
+      },
+	  {
+       "name": "Vietnam",
+       "children": [
+        {"name": "Ho Chi Minh City", "size": 347},
+        {"name": "Hanoi", "size": 143},
+        {"name": "Da Nang", "size": 75},
+        {"name": "Haiphong", "size": 60},
+		{"name": "Bien Hoa", "size": 41},
+		{"name": "Hue", "size": 29},
+		{"name": "Nha Trang", "size": 28},
+		{"name": "Can Tho", "size": 26},
+		{"name": "Rach Gia", "size": 23},
+		{"name": "Qui Nhon", "size": 21}
+       ]
+      },
+	  {
+       "name": "Thailand",
+       "children": [
+        {"name": "Bangkok", "size": 510},
+        {"name": "Samut Prakan", "size": 39},
+        {"name": "Mueang Nonthaburi", "size": 29},
+        {"name": "Udon Thani", "size": 25},
+		{"name": "Chon Buri", "size": 22},
+		{"name": "Nakhon Ratchasima", "size": 21},
+		{"name": "Chiang Mai", "size": 20},
+		{"name": "Hat Yai", "size": 19},
+		{"name": "Pak Kret", "size": 18},
+		{"name": "Si Racha", "size": 18}
+       ]
+      },
+	  {
+       "name": "Myanmar",
+       "children": [
+        {"name": "Yangon", "size": 448},
+        {"name": "Mandalay", "size": 121},
+        {"name": "Nay Pyi Taw", "size": 93},
+        {"name": "Mawlamyine", "size": 44},
+		{"name": "Kyain Seikgyi Township", "size": 25},
+		{"name": "Bago", "size": 24},
+		{"name": "Pathein", "size": 24},
+		{"name": "Monywa", "size": 18},
+		{"name": "Sittwe", "size": 18},
+		{"name": "Meiktila", "size": 18}
+       ]
+      },
+	  {
+       "name": "Malaysia",
+       "children": [
+        {"name": "Kota Bharu", "size": 146},
+        {"name": "Kuala Lumpur", "size": 145},
+        {"name": "Klang", "size": 88},
+        {"name": "Kampung Baru Subang", "size": 83},
+		{"name": "Johor Bahru", "size": 80},
+		{"name": "Subang Jaya", "size": 71},
+		{"name": "Ipoh", "size": 67},
+		{"name": "Kuching", "size": 57},
+		{"name": "Petaling Jaya", "size": 52},
+		{"name": "Shah Alam", "size": 48}
+       ]
+      },
+	  {
+       "name": "Cambodia",
+       "children": [
+        {"name": "Phnom Penh", "size": 157},
+        {"name": "Takeo", "size": 84},
+        {"name": "Sihanoukville", "size": 16},
+        {"name": "Battambang", "size": 15},
+		{"name": "Siem Reap", "size": 14},
+		{"name": "Paoy Paet", "size": 8},
+		{"name": "Kampong Chhnang", "size": 8},
+		{"name": "Kampong Cham", "size": 6},
+		{"name": "Pursat", "size": 5},
+		{"name": "Ta Khmau", "size": 5}
+       ]
+      },
+	  {
+       "name": "Laos",
+       "children": [
+        {"name": "Vientiane", "size": 20},
+        {"name": "Pakse", "size": 9},
+        {"name": "Thakhek", "size": 9},
+        {"name": "Savannakhet", "size": 7},
+		{"name": "Luang Prabang", "size": 5},
+		{"name": "Xam Nua", "size": 4},
+		{"name": "Muang Phonsavan", "size": 4},
+		{"name": "Muang Xay", "size": 3},
+		{"name": "Vangviang", "size": 3},
+		{"name": "Muang Pakxan", "size": 2}
+       ]
+      },
+      {"name": "Singapore", "size": 355},
+	  {"name": "Timor-Leste", "size": 135},
+	  {"name": "Brunei", "size": 44}
+     ]
+    },
+    {
+     "name": "Western Asia",
+     "children": [	 
+      {
+       "name": "Turkey",
+       "children": [
+        {"name": "Istanbul", "size": 1480},
+        {"name": "Ankara", "size": 352},
+        {"name": "Izmir", "size": 250},
+        {"name": "Bursa", "size": 141},
+		{"name": "Adana", "size": 125},
+		{"name": "Gaziantep", "size": 107},
+		{"name": "Konya", "size": 88},
+		{"name": "Cankaya", "size": 79},
+		{"name": "Antalya", "size": 76},
+		{"name": "Bagcilar", "size": 72}
+       ]
+      },
+      {
+       "name": "Iraq",
+       "children": [
+        {"name": "Baghdad", "size": 722},
+        {"name": "Basrah", "size": 260},
+        {"name": "Al Mawsil al Jadidah", "size": 207},
+        {"name": "Al Basrah al Qadimah", "size": 202},
+		{"name": "Mosul", "size": 174},
+		{"name": "Erbil", "size": 93},
+		{"name": "Abu Ghurayb", "size": 90},
+		{"name": "As Sulaymaniyah", "size": 72},
+		{"name": "Kirkuk", "size": 60},
+		{"name": "Najaf", "size": 48}
+       ]
+      },
+	  {
+       "name": "Saudi Arabia",
+       "children": [
+        {"name": "Riyadh", "size": 421},
+        {"name": "Jeddah", "size": 287},
+        {"name": "Mecca", "size": 132},
+        {"name": "Medina", "size": 130},
+		{"name": "Sultanah", "size": 95},
+		{"name": "Dammam", "size": 77},
+		{"name": "Ta'if", "size": 53},
+		{"name": "Tabuk", "size": 46},
+		{"name": "Al Kharj", "size": 43},
+		{"name": "Buraydah", "size": 39}
+       ]
+      },
+	  {
+       "name": "Yemen",
+       "children": [
+        {"name": "Sanaa", "size": 194},
+        {"name": "Al Hudaydah", "size": 62},
+        {"name": "Ta`izz", "size": 62},
+        {"name": "Aden", "size": 55},
+		{"name": "Mukalla", "size": 26},
+		{"name": "Ibb", "size": 23},
+		{"name": "Dhamar", "size": 16},
+		{"name": "Amran", "size": 9},
+		{"name": "Sayyan", "size": 7},
+		{"name": "Zabid", "size": 5}
+       ]
+      },
+	  {
+       "name": "Syria",
+       "children": [
+        {"name": "Aleppo", "size": 160},
+        {"name": "Damascus", "size": 157},
+        {"name": "Homs", "size": 77},
+        {"name": "Hamah", "size": 46},
+		{"name": "Latakia", "size": 34},
+		{"name": "Deir ez-Zor", "size": 24},
+		{"name": "Ar Raqqah", "size": 17},
+		{"name": "Al Bab", "size": 13},
+		{"name": "Idlib", "size": 13},
+		{"name": "Douma", "size": 11}
+       ]
+      },
+	  {
+       "name": "Azerbaijan",
+       "children": [
+        {"name": "Baku", "size": 112},
+        {"name": "Ganja", "size": 31},
+        {"name": "Sumqayit", "size": 27},
+        {"name": "Lankaran", "size": 24},
+		{"name": "Mingelchaur", "size": 10},
+		{"name": "Saatli", "size": 9},
+		{"name": "Qaracuxur", "size": 7},
+		{"name": "Sirvan", "size": 7},
+		{"name": "Bakixanov", "size": 7},
+		{"name": "Nakhchivan", "size": 6}
+       ]
+      },
+	  {
+       "name": "U.A.E",
+       "children": [
+        {"name": "Dubai", "size": 114},
+        {"name": "Abu Dhabi", "size": 60},
+        {"name": "Sharjah", "size": 54},
+        {"name": "Al Ain", "size": 41},
+		{"name": "Ajman", "size": 23},
+		{"name": "Ras al-Khaimah", "size": 12},
+		{"name": "Al Fujayrah", "size": 6},
+		{"name": "Umm al Qaywayn", "size": 4},
+		{"name": "Khawr Fakkan", "size": 3},
+		{"name": "Dibba Al-Fujairah", "size": 3}
+       ]
+      },
+	  {
+       "name": "Israel",
+       "children": [
+        {"name": "Jerusalem", "size": 80},
+        {"name": "Tel Aviv", "size": 43},
+        {"name": "West Jerusalem", "size": 40},
+        {"name": "Haifa", "size": 27},
+		{"name": "Ashdod", "size": 22},
+		{"name": "Rishon LeZiyyon", "size": 22},
+		{"name": "Petah Tiqwa", "size": 20},
+		{"name": "Beersheba", "size": 19},
+		{"name": "Netanya", "size": 17},
+		{"name": "Holon", "size": 17}
+       ]
+      },
+	  {
+       "name": "Jordan",
+       "children": [
+        {"name": "Amman", "size": 128},
+        {"name": "Zarqa", "size": 79},
+        {"name": "Irbid", "size": 31},
+        {"name": "Russeifa", "size": 27},
+		{"name": "Wadi as Sir", "size": 18},
+		{"name": "Ajlun", "size": 13},
+		{"name": "Aqaba", "size": 10},
+		{"name": "Rukban", "size": 9},
+		{"name": "Madaba", "size": 8},
+		{"name": "As Salt", "size": 8}
+       ]
+      },
+      {"name": "Lebanon", "size": 679},
+	  {"name": "Palastine", "size": 523},
+	  {"name": "Oman", "size": 525},
+	  {"name": "Kuwait", "size": 434},
+	  {"name": "Georgia", "size": 398},
+	  {"name": "Armenia", "size": 297},
+	  {"name": "Qatar", "size": 293},
+	  {"name": "Bahrain", "size": 177},
+	  {"name": "Cyprus", "size": 122}
+     ]
+    },
+    {
+     "name": "Central Asia",
+     "children": [	 
+      {
+       "name": "Uzbekistan",
+       "children": [
+        {"name": "Tashkent", "size": 198},
+        {"name": "Namangan", "size": 43},
+        {"name": "Samarkand", "size": 32},
+        {"name": "Andijon", "size": 32},
+		{"name": "Bukhara", "size": 25},
+		{"name": "Nukus", "size": 23},
+		{"name": "Qarshi", "size": 22},
+		{"name": "Qo`qon", "size": 19},
+		{"name": "Chirchiq", "size": 17},
+		{"name": "Fergana", "size": 16}
+       ]
+      },
+      {
+       "name": "Kazakhstan",
+       "children": [
+        {"name": "Almaty", "size": 200},
+        {"name": "Karagandy", "size": 45},
+        {"name": "Shymkent", "size": 41},
+        {"name": "Taraz", "size": 36},
+		{"name": "Nur-Sultan", "size": 35},
+		{"name": "Pavlodar", "size": 33},
+		{"name": "Ust-Kamenogorsk", "size": 32},
+		{"name": "Kyzylorda", "size": 30},
+		{"name": "Kyzyl-Orda", "size": 30},
+		{"name": "Semey", "size": 29}
+       ]
+      },
+	  {
+       "name": "Tajikistan",
+       "children": [
+        {"name": "Dushanbe", "size": 68},
+        {"name": "Khujand", "size": 14},
+        {"name": "Kulob", "size": 8},
+        {"name": "Qurghonteppa", "size": 7},
+		{"name": "Istaravshan", "size": 5},
+		{"name": "Konibodom", "size": 5},
+		{"name": "Vahdat", "size": 5},
+		{"name": "Isfara", "size": 4},
+		{"name": "Tursunzoda", "size": 4},
+		{"name": "Panjakent", "size": 4}
+       ]
+      },
+	  {
+       "name": "Kyrgyzstan",
+       "children": [
+        {"name": "Sanaa", "size": 90},
+        {"name": "Al Hudaydah", "size": 20},
+        {"name": "Ta`izz", "size": 8},
+        {"name": "Aden", "size": 7},
+		{"name": "Mukalla", "size": 6},
+		{"name": "Ibb", "size": 6},
+		{"name": "Dhamar", "size": 5},
+		{"name": "Amran", "size": 4},
+		{"name": "Sayyan", "size": 4},
+		{"name": "Zabid", "size": 4}
+       ]
+      },
+	  {
+       "name": "Turkmenistan",
+       "children": [
+        {"name": "Aleppo", "size": 73},
+        {"name": "Damascus", "size": 23},
+        {"name": "Homs", "size": 17},
+        {"name": "Hamah", "size": 11},
+		{"name": "Latakia", "size": 9},
+		{"name": "Deir ez-Zor", "size": 8},
+		{"name": "Ar Raqqah", "size": 7},
+		{"name": "Al Bab", "size": 7},
+		{"name": "Idlib", "size": 4},
+		{"name": "Douma", "size": 4}
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
