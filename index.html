@@ -15,8 +15,7 @@ rect.background {fill: white;}
 }
 .text {font: 10px sans-serif;}
 </style>
-<h1 style="text-align:center">Population of Asia</h1>
-<h2>Top 10 Cities by population in each Country</h2>
+<h1 style="text-align:center">Top 10 Cities by population in Asian Countries</h1>
 <h3 style="background-color:aqua">
 Click on the bar to see next level details.
 Click on the canvas (outside bars) to go back to previous level details.</bgcolor>
@@ -25,16 +24,15 @@ Click on the canvas (outside bars) to go back to previous level details.</bgcolo
 <div class="chart">
 </div>
 <p>
-This bar chart shows the different regions in Asia. Asia is divided into regions - Eastern Asia, Western Asia, Central Asia, Southern Asia and South-Eastern Asia.
+This bar chart shows the population of Top 10 Cities in each country in Asia.
+Asia is divided into regions - Eastern Asia, Western Asia, Central Asia, Southern Asia and South-Eastern Asia.
+<br/>
+Countries are listed under these regions. Under each country, Top 10 cities are displayed by population. 
+<br/><br/>
+At the top level, bar chart shows the overview of total people living in the top 10 cities in Asian countries. <br/>
+The current population of Asia is <b>4.68 billion</b>.
+<b> 538 million </b> people live in the top 10 cities of Asian countries. This is <b>11%</b> of total population.
 </p>
-<p>
-Countries are listed under each region based on their location. 
-Under each country, top 10 cities are displayed by population. 
-<br/>
-Unit for the population of city has a scale of 10,000 in the bar chart. 
-<br/>
-For example, go to Asia -> Eastern Asia -> China -> Shangai. Shangai has population of <b>22,315,474</b>. The bar graph shows <b>2231</b> as the value (length of bar) for Shangai.
-</p>	
 <script>
 
 var margin = {top: 30, right: 120, bottom: 0, left: 120},
@@ -43,12 +41,32 @@ var margin = {top: 30, right: 120, bottom: 0, left: 120},
 	
 var tooltip = d3.select("body")
     .append("div")
-    .attr("class", "remove")
-    .style("position", "absolute")
-    .style("z-index", "20")
-    .style("visibility", "hidden")
-    .style("top", "30px")
-    .style("left", "55px");
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "1px")
+    .style("border-radius", "5px")
+    .style("padding", "10px")
+	.style("width", "200px");
+
+	
+var mouseover = function(d) {
+    tooltip
+      .style("opacity", 1)
+  }
+
+var mousemove = function(d) {
+    tooltip
+      .html("Population: " + d.value*10000)
+      .style("left", (d3.mouse(this)[0]+90) + "px") 
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+
+var mouseleave = function(d) {
+    tooltip
+      .style("opacity", 0)
+  }
 
 var x = d3.scale.linear()
     .range([0, width]);
@@ -226,7 +244,10 @@ function bar(d) {
       .data(d.children)
     .enter().append("g")
       .style("cursor", function(d) { return !d.children ? null : "pointer"; })
-      .on("click", down);
+      .on("click", down)
+	  .on("mouseover", mouseover )
+      .on("mousemove", mousemove )
+      .on("mouseout", mouseleave );
 
   bar.append("text")
       .attr("x", -6)
@@ -252,11 +273,11 @@ function stack(i) {
 }
 
 </script>
-<p> Note: Countries with cities show as Blue in the bar chart and Countries without cities show as gray. 
-<br/>
-For example, under Western Asia, countries like Kuwait do not have many cities with high population. Hence it is shown in gray.
-</p>
-<h3> Facts</h3>
+<h3> Note: </h3> 
+<ul><li>Scale of y-axis: 1 unit = 10,000 people.</li>
+<li>Countries with major cities shown as Blue in the bar chart and some countries are show as gray where cities are not significant <10K. </li>
+</ul>
+<h3> Other Facts</h3>
 <ul>
 <li>
 The current population of Asia is <b>4,683,646,712</b> as of Friday, July 30, 2021, based on the latest United Nations estimates.
@@ -268,6 +289,6 @@ The current population of Asia is <b>4,683,646,712</b> as of Friday, July 30, 20
 <li>50.9 % of the population is urban (2,361,464,416 people in 2019)</li>
 <li>The median age in Asia is 32.0 years.</li>
 </ul>
-<p>This population data is sourced from https://www.worldometers.info/population/world/</p>
+<p>This population data is sourced from <a href="https://www.worldometers.info/population/world/"/>www.worldometers.info</p>
 </body>
 </html>
